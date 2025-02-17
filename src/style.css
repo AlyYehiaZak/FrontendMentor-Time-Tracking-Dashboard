@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #0f1424 !important;
+}
+
+a{
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
 .myFontFamily300{
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
@@ -27,14 +36,22 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-.my-bg-primary{
-    background-color: #0f1424;
+.main_section{
+    height: 100vh;
+    width: 100vw;
 }
 
-.my-bg-secondary{
+.my-bg-primary{
     background-color: #1c1f4a;
 }
 
+.user-bg{
+    background-color: #5847eb;
+}
+
+.my-text-secondary{
+    color: #bdc1ff;
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -45,7 +62,10 @@
 
 /* ////// lg /////// */
 @media (max-width:992px){
-    
+    .main_section{
+        height: auto;
+        width: auto;
+    }
 }
 
 /* ////// md /////// */
