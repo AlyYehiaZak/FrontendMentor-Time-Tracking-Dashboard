@@ -4,31 +4,36 @@
     box-sizing: border-box;
 }
 
-
-.my-text-primary{
-    color: black;
+.myFontFamily300{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
-.my-text-secondary{
-    color: black;
+.myFontFamily400{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.my-bg-primary{
-    background-color: black;
-}
-
-.my-bg-secondary{
-    background-color: black;
-}
-
-.myFontFamily{
-    
+.myFontFamily500{
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+.my-bg-primary{
+    background-color: #0f1424;
+}
 
-
+.my-bg-secondary{
+    background-color: #1c1f4a;
+}
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
