@@ -13,6 +13,10 @@ a{
     cursor: pointer !important;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
 .myFontFamily300{
     font-family: "Rubik", serif;
     font-optical-sizing: auto;
@@ -41,6 +45,10 @@ a{
     width: 100vw;
 }
 
+.profile_img{
+    width: 90px;
+}
+
 .my-bg-primary{
     background-color: #1c1f4a;
 }
@@ -51,6 +59,52 @@ a{
 
 .my-text-secondary{
     color: #bdc1ff;
+}
+
+.container_hours{
+    font-size: 55px;
+}
+
+.box_container{
+    background-repeat: no-repeat;
+    background-position: right -8px;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.box_container:hover .container_content{
+    background-color: #6f76c8;
+}
+
+.work_container{
+    background-color: #ff8c66;
+    background-image: url(./../public/images/icon-work.svg);
+}
+
+.play_container{
+    background-color: #56c2e6;
+    background-image: url(./../public/images/icon-play.svg);
+}
+
+.study_container{
+    background-color: #ff5c7c;
+    background-image: url(./../public/images/icon-study.svg);
+}
+
+.exercise_container{
+    background-color: #4acf81;
+    background-image: url(./../public/images/icon-exercise.svg);
+    background-position: right 0px;
+}
+
+.social_container{
+    background-color: #7536d3;
+    background-image: url(./../public/images/icon-social.svg);
+}
+
+.self_container{
+    background-color: #f1c65b;
+    background-image: url(./../public/images/icon-self-care.svg);
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -65,6 +119,9 @@ a{
     .main_section{
         height: auto;
         width: auto;
+    }
+    .profile_img{
+        width: 150px;
     }
 }
 
